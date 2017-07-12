@@ -1,6 +1,6 @@
 # Script to convert comma separated file to tab delimited file
 
-csv_file = 'group_key.csv'
+csv_file = 'rna_seq_supplemental_tab_1.csv'
 txt_file = csv_file[:-3] + 'txt'
 
 with open(csv_file,'r') as file_read:
